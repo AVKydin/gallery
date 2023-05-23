@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Bohemian';
+    src: url('../font/bohemian_typewriter/Bohemian\ Typewriter.ttf');
+}
+
+body{
+    font-family: 'Bohemian';
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 900px;
+
+}
+
+.logo_social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo{
+    width: 292px;
+    margin-bottom: 30px;
+
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.social_list{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 8px;
+}
+
+.social_list li{
+    margin-left: 6px;
+}
+
+.follow{
+    font-size: 9px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: end;
+}
+
+.nav_list li{
+    margin-left: 28px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #ABABAB;
+    transition: 700ms;
+}
+
+.nav_list li:hover{
+    color: #473838;
+}
+
+.insta .insta_ul,
+.gallery .gallery_ul{
+    display: none;
+    margin-left: -28px;
+}
+
+.insta:hover .insta_ul,
+.gallery:hover .gallery_ul{
+    display: block;
+    position: absolute;
+    font-size: 10px;
+}
+
+.insta_ul li,
+.gallery_ul li {
+    margin: 20px 0;
+    transition: 700ms;
+}
+
+.insta_ul li:hover,
+.gallery_ul li:hover {
+    transform: translate(20px);
+}
