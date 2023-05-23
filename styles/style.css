@@ -69,6 +69,7 @@ body{
 .gallery .gallery_ul{
     display: none;
     margin-left: -28px;
+
 }
 
 .insta:hover .insta_ul,
@@ -76,10 +77,12 @@ body{
     display: block;
     position: absolute;
     font-size: 10px;
+
 }
 
 .insta_ul li,
 .gallery_ul li {
+    height: 20px;
     margin: 20px 0;
     transition: 700ms;
 }
